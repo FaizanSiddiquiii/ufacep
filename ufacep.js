@@ -2,9 +2,9 @@ const generateForm = document.querySelector(".generate-form");
 const generateBtn = generateForm.querySelector(".generate-btn");
 const imageGallery = document.querySelector(".image-gallery");
 
-// require('dotenv').config();
+require('dotenv').config();
 
-const OPENAI_API_KEY = "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";//process.env.API_KEY;
+const OPENAI_API_KEY = process.env.API_KEY;
 let isImageGenerating = false;
 
 const updateImageCard = (imgDataArray) => {
