@@ -4,6 +4,7 @@ const imageGallery = document.querySelector(".image-gallery");
 
 require('dotenv').config();
 
+// added api key
 const OPENAI_API_KEY = process.env.API_KEY;
 let isImageGenerating = false;
 
