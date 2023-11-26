@@ -1,5 +1,20 @@
 {
+  "name": "ufacep",
+  "version": "1.0.0",
+  "description": "CEP Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ufacep"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "ckey": "^1.0.3",
+    "dotenv": "^16.3.1",
+    "openai": "^4.0.0"
   }
 }
